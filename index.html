@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="heading">BASKETBALL MATCH</h1>
+        <div class="container">
+            <div class="team1">
+            <h1 id="team_1"></h1>
+            <div class="team">
+                <h1 id="home_id">0</h1>
+                <button onclick="home_1()">+1</button>
+                <button onclick="home_2()">+2</button>
+                <button onclick="home_3()">+3</button>
+                <button id="reset" onclick="home_r()">RESET</button>
+                <button onclick="home__3()">-3</button>
+                <button onclick="home__2()">-2</button>
+                <button onclick="home__1()">-1</button>
+            </div>
+        </div>
+            <h4 id="lead_id"></h4>
+            <div class="team1">
+            <h1 id="team_2">TEAM 2</h1>
+            <div class="team">
+                <h1 id="guest_id">0</h1>
+                <button onclick="guest_1()">+1</button>
+                <button onclick="guest_2()">+2</button>
+                <button onclick="guest_3()">+3</button>
+                <button id="reset" onclick="guest_r()">RESET</button>
+                <button onclick="guest__3()">-3</button>
+                <button onclick="guest__2()">-2</button>
+                <button onclick="guest__1()">-1</button>
+            </div>
+        </div>
+        </div>
+        <div class="controls">
+            <button id="new_game" onclick="new_id()">NEW GAME</button>
+            <button id="end_game" onclick="end_id()">END GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

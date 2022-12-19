@@ -1,0 +1,103 @@
+body{
+    color: white;
+    background-color: #1B244B;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 40px 10px;
+}
+.team{
+    padding: 30px;
+    border-color: black;
+    border-style: inset;
+    background-color: rgb(37, 47, 91);
+}
+
+.team1{
+    letter-spacing: 7px;
+    padding: 10px 50px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: inset;
+    
+}
+
+.heading{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width:60%;
+    border-color:white;
+    border-style: none inset inset inset !important;
+    letter-spacing: 5px;
+
+}
+#home_id{
+    font-size:120px;
+    color:red;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#guest_id{
+    font-size:120px;
+    color:red;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#lead_id{
+    font-size: 20px;
+    margin-top:150px;
+}
+
+button{
+    color: white;
+    background-color: rgb(27,36,75);
+    padding: 5px;
+    border-style: inset;
+    border-radius: 3px;
+}
+
+#reset {
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+#new_game {
+    padding: 15px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-top: 25px;
+    border-style: inset;
+    background-color: rgb(37, 47, 91);
+    margin-right: 20px;
+}
+#end_game {
+    padding: 15px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-top: 25px;
+    border-style: inset;
+    background-color: rgb(37, 47, 91);
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
