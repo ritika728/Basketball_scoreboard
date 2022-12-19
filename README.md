@@ -2,6 +2,10 @@
 Built as a part of practice on Scrimba covering the main requirements and some stretch goals. 
 
 ### SCREENSHOTS:
+<img src = "https://user-images.githubusercontent.com/91181981/208547594-7555263c-4a87-4085-aac2-79a551281f83.png" width="400px">
+<img src = "https://user-images.githubusercontent.com/91181981/208548156-05b65bcb-9391-4ba8-921a-65d2f052d101.png" width="400px">
+<img src = "https://user-images.githubusercontent.com/91181981/208548233-e1942418-e311-45ea-8b5e-617f2bdabe4c.png" width="400px">
+
 
 ### FEATURES :
 * User can enter the names for the two teams.  
