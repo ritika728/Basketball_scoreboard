@@ -43,16 +43,16 @@ function check() {
         lead.textContent = "LET THE MATCH BEGIN!"
     }
     else if(team1_count == team2_count){
-        lead.textContent = "LEADING: Tie "
+        lead.textContent = "TIE "
     }
     if(team1_count > team2_count){
         result = team1_count - team2_count
-        lead.textContent = "LEADING: Team " + team_1.innerText + " is leading by " + result + " run(s) "
+        lead.textContent = "Team " + team_1.innerText + " is leading by " + result + " run(s) "
     }
     
     if(team2_count > team1_count){
         result = team2_count - team1_count
-        lead.textContent = "LEADING: Team " + team_2.innerText + " is leading by " + result + " run(s) " 
+        lead.textContent = "Team " + team_2.innerText + " is leading by " + result + " run(s) " 
     }
 }
 
