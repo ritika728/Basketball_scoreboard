@@ -51,13 +51,12 @@ body{
 #guest_id{
     font-size:120px;
     color:red;
-    text-decoration: wavy;
     margin-top: -10px;
     margin-bottom: 20px;
 }
 
 #lead_id{
-    font-size: 15px;
+    font-size: 20px;
     margin-top:150px;
 }
 
@@ -67,6 +66,7 @@ button{
     padding: 5px;
     border-style: inset;
     border-radius: 3px;
+    text-decoration: dotted;
 }
 
 #reset {
