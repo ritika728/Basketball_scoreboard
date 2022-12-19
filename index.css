@@ -51,12 +51,13 @@ body{
 #guest_id{
     font-size:120px;
     color:red;
+    text-decoration: wavy;
     margin-top: -10px;
     margin-bottom: 20px;
 }
 
 #lead_id{
-    font-size: 20px;
+    font-size: 15px;
     margin-top:150px;
 }
 
